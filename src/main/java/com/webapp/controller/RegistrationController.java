@@ -9,6 +9,7 @@ public class RegistrationController {
 			@RequestMapping("/viewRegi")
 			public String viewRegi() {
 				System.out.println("Hi");
+				System.out.println("Hello");
 				return "Registration";
 			}
 }
